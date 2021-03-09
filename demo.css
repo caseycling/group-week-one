@@ -1,31 +1,53 @@
 #get-more-with-us {
     display: flex;
     justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 p.paragraph{
     width: 400px;
-
 }
+
+#get-in-touch {
+    border: 1px;
+    background-color:#756AAE;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+}
+
+#download {
+
+    border: 2.5px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 0px;
+    }
 #what-people-say-main {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 #what-people-say {
     display: flex;
     justify-content: center; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 div.quote {
-    width: 300px;
-    border: 5px solid gray;
-    padding: 50px;
-    margin: 20px;
+    width: 350px;
+    border: 2px solid rgb(240, 233, 233);
+    padding: 30px;
+    margin: 10px;
+}
+
+h5.regular-client {
+    color:#756AAE;
 }
 
 div.image-wrapper
 {
-    display: flex;
-    /* justify-content: center;  */
+    display: inline-flex;
     flex-wrap: wrap;
 }
