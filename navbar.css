@@ -1,9 +1,23 @@
+
+.navbar{
+position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* .row{
+    margin-top: 10%;
+} */
+
+.row{
+    color: black    ;
+}
 ul{
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: #333;
-    height: 50px;
+    background-color: #ffffff;
+    /* height: 50px; */
 }
 
 li{
@@ -11,10 +25,10 @@ li{
 }
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    /* text-decoration: none; */
   }
   
   li a:hover:not(.active) {
@@ -24,4 +38,42 @@ li a {
   
   .active {
     background-color: #4CAF50;
+  }
+
+  .mobileApp {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xxx-large;
+  }
+
+  .para {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .paratwo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .touch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #756AEE;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
   }
