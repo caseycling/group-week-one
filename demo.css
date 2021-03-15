@@ -9,16 +9,32 @@ p.paragraph{
 
 #get-in-touch {
     border: 1px;
-    background-color:#756AAE;
+    background-color:#6b11e0;
     color: white;
     padding: 20px;
     margin: 0px;
 }
+
+#get-in-touch:hover {
+    opacity: 1;
+    border: 2px;
+    background-color:white;
+    color: black;
+    padding: 20px;
+    margin: 0px;
+    border: 2.5px solid black;
+  }
+
 #numbers {
     display: flex;
     justify-content: space-between;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: grey;
+    text-decoration: underline;
+}
+
+.num:hover{
+    color: rgb(144, 26, 190);
     text-decoration: underline;
 }
 
@@ -29,6 +45,15 @@ p.paragraph{
     padding: 20px;
     margin: 0px;
     }
+
+#download:hover {
+    border: 2.5px solid rgb(144, 26, 190);
+    background-color: white;
+    color: rgb(144, 26, 190);
+    padding: 20px;
+    margin: 0px;
+    }
+
 #what-people-say-main {
     display: flex;
     justify-content: center;
