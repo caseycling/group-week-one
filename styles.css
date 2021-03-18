@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  margin: 5rem 20rem 0rem;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  animation: fadeIn ease 2s;
+}
+
+#ten {
+  font-size: 24vw;
+  letter-spacing: -30px;
+  color: #756aee;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.yrs-exp {
+  margin: 2.5rem 2rem 1rem 2rem;
+  font-size: large;
+  flex-basis: 25%;
+  height: 100%;
+  text-align: start;
+}
+
+.yrs-exp h2 {
+  border-left: solid 3.5px rgba(211, 211, 211, 0.808);
+  font-weight: 600;
+  padding-left: 1.25rem;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+}
+
+.yrs-exp p {
+  color: rgba(165, 164, 164, 0.808);
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 25px;
+  line-height: 1.25rem;
+  letter-spacing: 0.75px;
+}
+
+.yrs-exp button {
+  font-size: small;
+  font-weight: 500;
+  width: 80%;
+  height: 3.5vw;
+  padding: 13px;
+  border: 2px solid white;
+  color: white;
+  background-color: #756aee;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.yrs-exp button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.deats-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  height: 350px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.deat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 100px;
+  flex-wrap: wrap;
+  padding: 10px 15px 15px 15px;
+  margin: 0px;
+}
+
+.deat h1 {
+  letter-spacing: 0.05em;
+  font-size: 5.5vw;
+  font-weight: 500;
+}
+
+.deat h1 span {
+  font-size: 2.8vw;
+}
+
+.deat p {
+  color: rgba(14, 14, 14, 0.473);
+  line-height: 0.8;
+  letter-spacing: 1px;
+}
+
+.deat1 {
+  border-bottom: 0.5px solid rgba(211, 211, 211, 0.808);
+  border-right: 0.5px solid rgba(211, 211, 211, 0.808);
+}
+.deat2 {
+  border-top: 0.5px solid rgba(211, 211, 211, 0.808);
+  border-right: 0.5px solid rgba(211, 211, 211, 0.808);
+}
+.deat3 {
+  border-bottom: 0.5px solid rgba(211, 211, 211, 0.808);
+  border-left: 0.5px solid rgba(211, 211, 211, 0.808);
+}
+.deat4 {
+  border-top: 0.5px solid rgba(211, 211, 211, 0.808);
+  border-left: 0.5px solid rgba(211, 211, 211, 0.808);
+}
+
+.clients {
+  margin: 1rem 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.clients img {
+  border: solid 1px black;
+  height: 7vw;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-out, transform 0.2s;
+  animation: fadeIn ease 2s;
+}
+
+.clients a:hover {
+  border: solid 1px black;
+}
+
+.clients img:hover {
+  opacity: 1;
+  transform: scale(0.85);
+}
