@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family:"Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
 /* NAVBAR */
 .navbar{
   position: fixed; /* Set the navbar to fixed position */
@@ -110,13 +115,15 @@
       min-height: 100px;
       min-width: 100px;
       text-align: center;
-      box-shadow:  -1px -3px 10px rgb(0 0 0 / 17%);
+      /* box-shadow:  -1px -3px 10px rgb(0 0 0 / 17%); */
   
   }
   
   .service-container{
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
+      margin-bottom: 50px;
   }
   
   .pics{
@@ -126,34 +133,68 @@
   }
   
   .box{
+      /* display: flex;
+      flex-wrap: wrap; */
+      align-items: center;
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: wrap;      
       justify-content: space-around;
-      width: 50%;
       margin-left: 10%;
-  
+      width: 50%;      
   }
   
   .services{
-      flex: 40%;
+      display: flex;
+      /* flex: 40%; */
+      flex-direction: column;
       margin: .5rem;
-      
+      max-width: 220px;
+      padding: 25px;      
+  }
+
+.services-text
+{
+  font-size: 14px;
+}
+
+.service-hr
+{
+  width: 40%;
+  height: 2px;
+  margin-top: 10%;
+  background-color: #c7bbbb;
+}
+
+  .service-title:hover
+  {
+    color: #756aee;    
+    transition: color 0.3s ease-in-out;
+  }
+
+  .service-title
+  {
+    margin: 0;
   }
   
   .service-button{
-      overflow: hidden;
-      display: inline-block;
-      min-width: 200px;
-      padding: 17px 33px 15px;
-      font-size: 14px;
-      line-height: 1.34;
-      border: 2px solid;
-      font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-weight: 500;
-      letter-spacing: 0.075em; 
-      color: #ffffff;
       background-color: #756aee;
       border-color: #756aee;
+      border: 2px solid;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.075em;
+      line-height: 1.34;
+      min-width: 200px;
+      overflow: hidden;      
+      padding: 17px 33px 15px;      
+  }
+
+  .service-button:hover
+  {
+    background-color: black;
+    transition: color 1s ease-in-out;
   }
   
   h3{
@@ -162,8 +203,7 @@
   
   .shadow{
       margin: 10%;
-      font-size: 35px;
-      font-family:"Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 35px;      
   }
 
   /* EXPERIENCE */
