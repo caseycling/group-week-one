@@ -360,7 +360,7 @@ body {
 .team-member {
   overflow: hidden;
 
-  position: relative;a
+  position: relative;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
 }
@@ -495,4 +495,54 @@ div.image-wrapper
 {
   display: inline-flex;
   flex-wrap: wrap;
+}
+
+
+/* Latest Blog Section */
+
+.container {
+  display: flex;
+  width: 32%;
+  padding: 8em;
+  padding-top: 0.9em;
+}
+
+.blog-header {
+  text-align: center;
+  font-size: 3em;
+}
+
+
+.card-1 {
+  flex: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: justify;
+  margin: 0.8em;
+  background-color: white;
+}
+
+
+.post-text {
+  text-align: justify;
+  font-weight: lighter;
+  color: gray;
+  }
+
+.container a {
+  text-decoration: none;
+}
+
+.post-number {
+  font-size: 30px;
+}
+
+.post-month {
+  font-size: 30px;
+}
+
+.post-title a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #111;
 }
